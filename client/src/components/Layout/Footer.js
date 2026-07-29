@@ -22,13 +22,13 @@ const Footer = () => {
 
         {/* Social Media Icons */}
         <div className="footer-social">
-          <a href="#" className="footer-social-link" aria-label="Twitter">
+          <a href="https://twitter.com" className="footer-social-link" aria-label="Twitter">
             <FaTwitter className="footer-social-icon" />
           </a>
-          <a href="#" className="footer-social-link" aria-label="Instagram">
+          <a href="https://instagram.com" className="footer-social-link" aria-label="Instagram">
             <FaInstagram className="footer-social-icon" />
           </a>
-          <a href="#" className="footer-social-link" aria-label="Google Plus">
+          <a href="https://google.com" className="footer-social-link" aria-label="Google Plus">
             <FaGooglePlusSquare className="footer-social-icon" />
           </a>
         </div>
