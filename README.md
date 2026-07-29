@@ -1,6 +1,6 @@
-# NPS VISION - E-Commerce Application
+# NPS VISION - E-Commerce Application (Ecommerce-Based-AR-Website-)
 
-A full-stack e-commerce application built with React, Node.js, Express, and MongoDB. The application features user and administrator roles, secure JWT authentication, password recovery, category management, and a responsive Bootstrap-based user interface.
+A full-stack e-commerce application built with React, Node.js, Express, and MongoDB. It utilizes `<model-viewer>` to enable users to preview 3D product models in real-world environments (AR) through mobile cameras for an immersive and interactive shopping experience. The application features user and administrator roles, secure JWT authentication, password recovery, category management, and a responsive Bootstrap-based user interface.
 
 ## Table of Contents
 
@@ -24,6 +24,7 @@ A full-stack e-commerce application built with React, Node.js, Express, and Mong
 - **Protected Routes:** Separate middleware checkups for registered users and administrators to guard sensitive routes (`/dashboard/user` and `/dashboard/admin`).
 
 ### User Interface & Experience
+- **AR / 3D Viewer:** Built-in integration with `<model-viewer>` to preview product models in Augmented Reality using mobile cameras.
 - **Responsive Layout:** Structured with React Bootstrap & Bootstrap for a clean mobile-first design.
 - **Dynamic SEO Metadata:** Managed with `react-helmet` to handle page-specific titles, descriptions, and keywords.
 - **Notifications:** Integrated toast alerts using `react-hot-toast` and `react-toastify` for clear, non-blocking user feedback.
@@ -45,6 +46,7 @@ A full-stack e-commerce application built with React, Node.js, Express, and Mong
 ### Frontend
 - **Framework:** React (v19)
 - **Routing:** React Router DOM (v7)
+- **AR Viewer:** `@google/model-viewer`
 - **Styling:** Bootstrap (v5), React Bootstrap, Custom CSS
 - **HTTP Client:** Axios for API requests
 - **Metadata Management:** React Helmet
